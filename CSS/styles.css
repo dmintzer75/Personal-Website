@@ -1,0 +1,160 @@
+/**********TAG SELECTOR********/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+h1 {
+  margin: 10px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  color: #23A24D;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #61B872;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #23A24D;
+  margin: 5px auto 10px auto;
+}
+
+p {
+  margin: 5px 0;
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #c0c0c0;
+  border-width: 5px;
+  width: 5%;
+  margin: 60px auto 60px;
+}
+
+a:hover {
+  color: #3D6F44;
+}
+
+/**********CLASS SELECTOR********/
+
+.top_container{
+  background-color: #E0EBE8;
+  position: relative;
+  padding-top: 30px;
+
+}
+
+.top_bird {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 250px;
+  top: 0;
+
+}
+
+.bottom_bird {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 225px;
+  left: 20%;
+
+}
+.forest {
+  margin-top: 0;
+  width: 300px;
+  height: 250px
+}
+
+.middle_container{
+  background-color: #fffdf9;
+  margin: 50px 0 0;
+  padding: 10px auto 0;
+}
+
+.Dario_perfil{
+  border-radius: 50%;
+  width: 8%;
+  height: 8%;
+}
+
+.sentence{
+  font-size: 0.8rem;
+  color: #323232;
+
+}
+
+.skill-data{
+  margin-top: 0;
+  margin-right: 20px;
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.skill-ml{
+  margin-top: 0;
+  margin-left: 20px;
+  width: 25%;
+  height: 25%;
+  float: right;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom_container{
+  background-color: #E0EBE8;
+  padding:20px;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #61B872 5%, #23A24D 100%);
+	background-color:#11999E;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:0.8rem;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin: 20px auto 40px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer_link{
+  color: #61B872;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer{
+  color: #323232;
+  font-size: 0.7rem;
+  margin: 20px auto 0;
+}
